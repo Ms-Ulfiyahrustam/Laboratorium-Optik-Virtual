@@ -53,7 +53,7 @@ src/
 
 1. **Clone repositori ini:**
    \`\`\`bash
-   git clone https://github.com/USERNAME_KAMU/virtual-optics-lab.git
+   git clone https://github.com/Ms-Ulfiyahrustam/Laboratorium-Optik-Virtual.git
    cd virtual-optics-lab
    \`\`\`
 
@@ -81,11 +81,7 @@ src/
 - [ ] Implementasi Lensa Cembung & Cekung
 - [ ] Prisma dan Dispersi Cahaya (Pemecahan warna spektrum)
 
-## 👤 Penulis
 
-**[Nama Kamu]**
-* GitHub: [@UsernameKamu](https://github.com/UsernameKamu)
-* LinkedIn: [Profil LinkedIn Kamu](https://linkedin.com/in/UsernameKamu)
 
 ---
 *Dibuat untuk mempermudah visualisasi fisika melalui baris kode.* 🚀

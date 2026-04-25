@@ -1,0 +1,16 @@
+src/
+├── components/
+│   ├── ui/               # Komponen antarmuka non-canvas
+│   │   ├── Toolbar.jsx   # Tombol tambah laser, cermin, lensa
+│   │   └── Properties.jsx# Panel untuk mengubah sudut/indeks bias benda yang di-klik
+│   └── canvas/           # Komponen Konva (berada di dalam Canvas)
+│       ├── Scene.jsx     # Wadah utama Canvas
+│       ├── Laser.jsx     # Menggambar ikon laser
+│       ├── Mirror.jsx    # Menggambar garis cermin
+│       └── Ray.jsx       # Menggambar garis sinar cahaya (dihitung oleh physics engine)
+├── physics/
+│   ├── engine.js         # Algoritma utama raycasting (mencari titik potong)
+│   └── opticsMath.js     # Rumus pemantulan & Hukum Snellius
+├── store/
+│   └── useOpticsStore.js # Zustand state management
+└── App.jsx               # Titik kumpul semua komponen
